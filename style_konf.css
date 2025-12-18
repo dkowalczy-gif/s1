@@ -2573,3 +2573,80 @@ textarea:focus {
 .price-table tr:last-child td {
     border-bottom: none;
 }
+
+.divider-bar {
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+    margin: 3rem 0;
+}
+
+.full-width-divider {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+
+.topics-list-no-bullets {
+    list-style: none; /* Remove default bullets */
+    padding: 0;
+    margin: 0;
+}
+
+.topics-list-no-bullets li {
+    padding-bottom: 0.5rem;
+    font-size: 1.1rem;
+    color: #555;
+    text-indent: -1.5em; /* Compensate for removed fa-li padding if desired */
+    margin-left: 1.5em; /* Indent the list items */
+}
+
+.topics-list-no-bullets li i {
+    margin-right: 15px; /* Space between icon and text */
+    color: #44d62c;
+    font-size: 1.2rem;
+}
+
+.high-contrast .topics-list-no-bullets li {
+    color: #ccc;
+}
+
+
+.info-box .fa-ul {
+    margin-left: 2em;
+    margin-top: 1rem;
+}
+
+.info-box li {
+    padding-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.info-box .fa-li {
+    color: #44d62c;
+}
+
+.high-contrast .info-box li {
+    color: #ccc;
+}
+
+
+
+
+
+
+/* Ensure left alignment for list items within Important Dates info-box */
+.important-dates-section .info-box ul {
+    text-align: left;
+}
+
+
+/* Session Topics Section Specific Styling */
+.session-topics-section .info-box ul {
+    text-align: left;
+}
+
