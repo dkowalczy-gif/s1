@@ -2650,3 +2650,8 @@ textarea:focus {
     text-align: left;
 }
 
+
+/* Ensure left alignment for list items within Session Topics info-box */
+.session-topics-section .info-box ul {
+    text-align: left; /* Explicitly left-align text within the list */
+}
