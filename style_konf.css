@@ -2655,3 +2655,12 @@ textarea:focus {
 .session-topics-section .info-box ul {
     text-align: left; /* Explicitly left-align text within the list */
 }
+
+/* Ensure Barbe logo fits within its container in all modes */
+.partner-logo .logo-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    max-height: 100px; /* Explicitly set max-height to container height */
+}
+
